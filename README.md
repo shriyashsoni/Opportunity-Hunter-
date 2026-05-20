@@ -3,32 +3,7 @@
 An autonomous, concurrent multi-agent system that intelligently crawls the web, extracts high-quality opportunities (Fully Funded Trips, UGC Brand Deals, Speaker CFPs & Hackathons) tailored to your personal developer profile, and compiles them into a premium-styled Excel spreadsheet with a summary metrics dashboard.
 
 ---
-
-## 🏗️ Architecture & Project Structure
-
-The project has been initialized with the following structure:
-
-```text
-opportunity-agent/
-├── main.py                     # Entry Point: Orchestrates parallel multi-agent executions
-├── config.py                   # Configuration: Profile customization, targeted queries, model configurations
-├── requirements.txt            # Python Dependencies
-├── .gitignore                  # Git Ignores (hides environment keys & Excel outputs)
-├── .env.example                # Environment configuration template for API credentials
-├── run_agent.bat               # Windows automation launcher (one-click start)
-├── run_agent.sh                # macOS / Linux automation launcher (with venv auto-setup)
-├── agents/
-│   ├── sponsored.py            # Sponsored Trips Agent prompt & execution
-│   ├── ugc.py                  # UGC Brand Deals Agent prompt & execution
-│   └── speaker_hackathon.py    # Hackathons & Speaker CFPs Agent prompt & execution
-├── utils/
-│   ├── base_agent.py           # Core: Parallel Tavily/Serper search, LLM extraction pipeline, deduplication
-│   ├── excel_writer.py         # Premium OpenPyXL Excel spreadsheet template generator
-│   └── logger.py               # Colorized, timestamped command-line logging
-└── output/                     # Auto-created directory where generated Excel reports are saved
-```
-
----
+<img width="1123" height="640" alt="Screenshot 2026-05-20 145115" src="https://github.com/user-attachments/assets/bdccb944-b692-46f8-97e3-ccfbab513f9f" />
 
 ## 🚀 Key Features
 
