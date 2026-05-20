@@ -1,5 +1,12 @@
 # 🎯 Opportunity Hunter — Local Python AI Agent
 
+
+<img width="1907" height="899" alt="image" src="https://github.com/user-attachments/assets/81e344e4-1c84-476c-9282-e0af36cd183a" />
+
+
+
+
+
 An autonomous, concurrent multi-agent system that intelligently crawls the web, extracts high-quality opportunities (Fully Funded Trips, UGC Brand Deals, Speaker CFPs & Hackathons) tailored to your personal developer profile, and compiles them into a premium-styled Excel spreadsheet with a summary metrics dashboard.
 
 ---
